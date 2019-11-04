@@ -739,6 +739,9 @@ export default class Autosuggest extends Component {
       query: this.getQuery()
     };
 
+
+    console.log('Autosuggest: Rendering data for query', renderSuggestionData);
+    console.log('Autosuggest: Items received are:', items);
     return (
       <Autowhatever
         multiSection={multiSection}
